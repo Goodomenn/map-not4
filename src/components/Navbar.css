@@ -1,0 +1,51 @@
+.navbar{
+    background: #f3ec78;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-left: 20px;
+    display: grid;
+    align-items: center;
+    width:50px;
+}
+.search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+input {
+    height: 30px;
+    max-width: 500px;
+    min-width: 60px;
+    border: none;
+    border-radius: 40px;
+    background:  #f25c66;
+    flex-shrink: 1;
+   /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    padding: 5px;
+}
+input:focus {
+    outline: none;
+    border: none;
+}
